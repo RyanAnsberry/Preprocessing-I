@@ -138,10 +138,11 @@ body {
 .container {
   margin: 0 auto;
   max-width: 800px;
-  background: #8a92a5;
+  background: #1a3a4f;
 }
 header nav {
   display: flex;
+  background-color: #8a92a5;
   width: 100%;
   height: 70px;
   justify-content: space-evenly;
@@ -191,4 +192,62 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.credentials {
+  display: flex;
+  justify-content: space-evenly;
+}
+.credentials .skills {
+  width: 45%;
+}
+.credentials .skills h2 {
+  padding: 5px 0;
+  font-size: 3.2rem;
+  text-align: center;
+  background: #ffe3a4;
+  border: 4px outset #f5a67f;
+}
+.credentials .skills ul {
+  display: flex;
+  height: 200px;
+  background: #006792;
+  border: 4px solid #8a92a5;
+  border-top: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.credentials .skills ul li {
+  color: #fff;
+  font-size: 2rem;
+  list-style-type: circle;
+}
+.credentials .work-history {
+  width: 45%;
+}
+.credentials .work-history h2 {
+  padding: 5px 0;
+  font-size: 3.2rem;
+  text-align: center;
+  background: #ffe3a4;
+  border: 4px outset #f5a67f;
+}
+.credentials .work-history table {
+  height: 200px;
+  background: #006792;
+  border: 4px solid #8a92a5;
+  border-top: none;
+}
+.credentials .work-history th,
+.credentials .work-history td {
+  border: 2px solid #8a92a5;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5% 0;
+}
+.credentials .work-history th {
+  color: #000;
+  background-color: #8a92a5;
+  border-color: #1a3a4f;
 }
