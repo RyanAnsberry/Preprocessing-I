@@ -132,7 +132,63 @@ table {
 }
 html,
 body {
-  max-width: 800px;
-  margin: 0 auto;
+  font-size: 62.5%;
   height: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background: #8a92a5;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid #1a3a4f;
+}
+header nav a {
+  color: white;
+  background: #1a3a4f;
+  width: 20%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border: 2px outset #006792;
+  border-radius: 100%;
+}
+a:hover {
+  color: #006792;
+  background-color: #ffe3a4;
+  border-color: #f5a67f;
+}
+.intro {
+  height: 340px;
+  background: #1a3a4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.intro h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+.intro img {
+  width: 20%;
+  border: 2px solid #8a92a5;
+}
+.intro p {
+  width: 80%;
+  padding: 20px 0;
+  border-top: 2px solid #8a92a5;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
